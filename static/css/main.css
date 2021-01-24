@@ -86,6 +86,16 @@ body {
 .card {
     border:none;
 }
+.container {
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+
+}
+.about {
+    position:relative;
+    padding-left: 0vw;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -133,23 +143,38 @@ h4 {
 
 @media screen and ( max-width: 1024px ) {
 img.responsive { width: 200px;}
-p.responsive { font-size: 15px;}
-h1.display-4 {font-size: 40px;}
+p.responsive { font-size: 13px; text-align: center;}
+h1.display-4 {font-size: 40px; text-align: center;}
+h1.display-5 {font-size: 40px; text-align: center;}
 .skresponsive {
     height: 80px;
+    width: 80px;
     padding: 10px;
     z-index: 0;
-
+    display: block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
     transition: 0.2s;
 }
 .skresponsive:hover {
     transform: scale(1.3);
     filter: grayscale(0%);
   }
-
+.image-container {
+    min-height: 500px;
+}
+.pfp {
+    height:70%;
+    width:70%;
+}
+.icon_media {
+    font-size:3em;
+}
 }
 @media screen and ( min-width: 1025px) {
 img.responsive { width: 250px;}
 p.responsive { font-size: 20px;}
 }
 img.responsive { height: auto; }
+

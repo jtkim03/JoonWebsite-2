@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Joon Kim</title>
     <meta charset='utf-8'>
@@ -8,18 +9,20 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!--CSS-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="static/css/main.css" rel="stylesheet">
     <script src='main.js'></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" role="navigation" >
-        <div class = "container-fluid">
-            <a class = "navbar-brand" href = "#">
-                <img src = "static/images/joontext.png" width = 50em height = 50em>
+    <div class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="static/images/joontext.png" width=50em height=50em>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dynamic"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
@@ -40,231 +43,269 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <button type="button" class="btn btn-outline-success">
-                    <li>
-                        <a class="nav-link" href="Resume.pdf">Resume</a>
-                    </li>
+                        <li>
+                            <a class="nav-link" href="Resume.pdf">Resume</a>
+                        </li>
                     </button>
                 </ul>
             </div>
         </div>
     </div>
-    <div class = "image-container">
+    <div class="image-container">
         <BR>
-            <div data-aos="fade-up" data-aos-duration="1000" style="margin-bottom: 0vh; padding: 0vh;">
-                <center>
-                    <img src = "static/images/jooncrop2.png" height = 20% width = 20% class = "img-fluid">
-                </center>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-            <h1 class = "display-5" style = "justify-content: center; font-size: 6vw; margin: 0 0 1vh 0;" >
-                Joon Kim
-            </h1> 
+        <div data-aos="fade-up" data-aos-duration="1000" style="margin-bottom: 0vh; padding: 0vh;">
+            <center>
+                <div class = "pfp">
+                    <img src="static/images/jooncrop2.png" height=20% width=20% class="pfp">
+                </div>
+            </center>
         </div>
-            <div data-aos="fade-up" data-aos-duration="1000">
-                <h1 class = "display-4" style = "font-size:larger; font-weight: bolder;">Welcome to my personal website</h1> 
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay = "300">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="display-5" style="justify-content: center; margin: 0 0 1vh 0;">
+                Joon Kim
+            </h1>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="display-4" style="font-size:larger; font-weight: bolder;">Welcome to my personal website</h1>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <ul>
-                <li><a href = "https://www.linkedin.com/in/joon-kim-995a09183/"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href = "https://github.com/jtkim03"><i class="fab fa-github-square"></i></a></li>
-                <li><a href = "mailto:jtk2rw@virginia.edu"><i class="fas fa-envelope"></i></a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/joon-kim-995a09183/">
+                        <div class = "icon_media">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/jtkim03">
+                        <div class = "icon_media">
+                        <i class="fab fa-github-square"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:jtk2rw@virginia.edu">
+                        <div class = "icon_media">
+                        <i class="fas fa-envelope"></i>
+                        </div>
+                    </a>
+                </li>
             </ul>
-            </div>
+        </div>
     </div>
 
-        <div class="container-fluid" style="padding-top: 10vh; padding-bottom: 15vh; background-color: #252424;"  id="profile">
-            <div class="row">
-                <div class="col" style="margin:10vh 5vw 0vh 5vw;">
+    <div class="container-fluid" style="padding-top: 10vh; padding-bottom: 15vh; background-color: #252424;">
+        <div class="container">
+            <div class="about">
+                <div class="col">
                     <div data-aos="fade-up" data-aos-duration="1000">
-                        <h1 class="display-4" style="color: rgb(255, 255, 255); font-weight: bold; text-shadow: 1px 1px 2px black;">ABOUT ME </h1>
+                        <h1 class="display-4"
+                            style="color: rgb(255, 255, 255); font-weight: bold; text-shadow: 1px 1px 2px black; margin-top: 10vh;">ABOUT
+                            ME </h1>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <p class = "responsive">
-                        Hello! I am a third year student studying at the School of Engineering and Applied Sciences at UVA.
-                        I am majoring in computer science while considering a minor in data analytics.
-                        I will be working as a Data Management intern at SAS Institute for the summer of 2021. 
-                        Computer Science has always been something I have been passionate about
-                        since a young age, and I am always excited to think
-                        about the opportunity to use the knowledge I have acquired over the years to change the world. In the future I aspire to become 
-                        a full stack software engineer using the latest and greatest technologies of our time. 
-                    <p>
+                        <p class="responsive">
+                            Hello! I am a third year student studying at the School of Engineering and Applied Sciences
+                            at UVA.
+                            I am majoring in computer science while considering a minor in data analytics.
+                            I will be working as a Data Management intern at SAS Institute for the summer of 2021.
+                            Computer Science has always been something I have been passionate about
+                            since a young age, and I am always excited to think
+                            about the opportunity to use the knowledge I have acquired over the years to change the
+                            world. In the future I aspire to become
+                            a full stack software engineer using the latest and greatest technologies of our time.
+                        <p>
                     </div>
                 </div>
-    
+            </div>
+            <div class="about">
                 <div class="col" style="margin: 10vh 0vw 10vh 0vw; text-align: center;">
                     <div data-aos="fade-up" data-aos-duration="1000">
-                            <img src="static/images/joonformal.jpg" width="70%"  height="70%" class="img-fluid">
+                        <img src="static/images/joonformal.jpg" width="70%" height="70%" class="img-fluid">
                     </div>
                 </div>
-                <!--Details
-                <div class="col-md-4" style="margin: 10vh 5vw 10vh 5vw;">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <h1 class="display-4" style="color: black; font-weight: bold; text-shadow: 1px 1px 2px black;">Details</h1>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <h4 style="font-weight: bold;">Full name:</h4>
-                        <p style = "font-size:1.5vw">Joon Tae Kim</p>
-                        <h4 style="font-weight: bold;">Age:</h4>
-                        <p style = "font-size:1.5vw">20 years</p>
-                        <h4 style="font-weight: bold;">Location:</h4>
-                        <p style = "font-size:1.5vw">Fairfax VA (Home) <br />
-                        Charlottesville VA (School)
-                        </p>
-                    </div>
-                </div>
-                -->
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>
 
-<div data-aos="fade-up" data-aos-duration="1000">
-<div class = "container-fluid" style = "background-color: black;" id = "projects">
     <div data-aos="fade-up" data-aos-duration="1000">
-        <h1 class="display-4" style="color: rgb(255, 255, 255); font-weight: bold; text-shadow: 1px 1px 2px black; text-align: center; padding-bottom: 3vh;padding-top: 20vh; margin-bottom: 0vh;">PROJECTS</h1>
+        <div class="container-fluid" style="background-color: black;" id="projects">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="display-4"
+                    style="color: rgb(255, 255, 255); font-weight: bold; text-shadow: 1px 1px 2px black; text-align: center; padding-bottom: 3vh;padding-top: 20vh; margin-bottom: 0vh;">
+                    PROJECTS</h1>
+            </div>
+        </div>
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" style="background-color: black; padding-bottom: 15vh; max-height: 700px;">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <h4 class="project-title" style="text-align: center;">UVA Solar Car Team Telemetry Software</h4>
+                    </div>
+                    <div class="row justify-content-center" style="margin-top: 3vh; margin-bottom: 3vh;">
+                        <img src="static/images/telemetry.jpg" height=100% width=50%>
+                    </div>
+                    <h5 class="project-desc">
+                        A telemetry software that receives and displays data from our solar car in real time.
+                        Currently in development using Flask, SocketIO, Python, Javascript, Bootstrap, and
+                        PostgreSQL.
+                    </h5>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <h4 class="project-title">Find a Quick Tutor</h4>
+                        <div class="row justify-content-center" style="margin-top: 3vh; margin-bottom: 3vh;">
+                            <img src="static/images/quicktutor.jpg" height=100% width=50%>
+                        </div>
+                        <h5 class="project-desc">
+                            A forum based web tutoring application designed to help students get their questions about
+                            classes answered by other students or experts.
+                            Built using Django, Heroku, TravisCI, Bootstrap, Javascript, Python, and PostgreSQL
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <h4 class="project-title">Coop</h4>
+                        <div class="row justify-content-center" style="margin-top: 3vh; margin-bottom: 3vh;">
+                            <img src="static/images/coop.jpg" height=100% width=50%>
+                        </div>
+                        <h5 class="project-desc">
+                            A simple note sharing web application that allows users to share and downloads notes with
+                            others. Created for Hoohacks 2020 at UVA. Built using Django, Python, and Bootstrap.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
-</div>
-<div id="carouselControls" class="carousel slide" data-ride="carousel" >
-    <div class="carousel-inner" style="background-color: black; padding-bottom: 15vh; max-height: 700px;" >
-        <div class="carousel-item active"> 
-            <div class="row justify-content-center">
-                <h4 class="project-title" style = "text-align: center;">UVA Solar Car Team Telemetry Software</h4>
-            </div>
-            <div class = "row justify-content-center" style = "margin-top: 3vh; margin-bottom: 3vh;">
-                <img src="static/images/telemetry.jpg" height=100% width=50%>
-            </div>
-                <h5 class = "project-desc">
-                    A telemetry software that receives and displays data from our solar car in real time.
-                    Currently in development using Flask, SocketIO, Python, Javascript, Bootstrap, and 
-                    PostgreSQL. 
-                </h5>
-        </div>
-        <div class="carousel-item">
-            <div class="row justify-content-center">
-                <h4 class="project-title">Find a Quick Tutor</h4>
-                <div class = "row justify-content-center" style = "margin-top: 3vh; margin-bottom: 3vh;">
-                    <img src="static/images/quicktutor.jpg" height=100%  width=50%>
+    <!--Skills-->
+    <div class="container-fluid" style="background-color: #252424; padding-top: 10vh; padding-bottom: 20vh;"
+        id="skills">
+        <div data-aos="zoom-in" data-aos-duration="1000">
+            <h1 class="display-4"
+                style="color: rgb(255, 255, 255); font-weight: bold; text-align: center; padding-bottom: 3vh;padding-top: 15vh;">
+                TECHNICAL SKILLS</h1>
+            <div class="container_skills">
+                <div class="row mt-5">
+                    <div class="col">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <div class="card" style="width: 10rem; background-color:  #252424; margin-left:auto; margin-right: auto; margin-top: vh;">
+                                <center>
+                                    <img class="skresponsive" src="static/images/languages.png" alt="Card image cap"
+                                        style="height: 80%; width: 80%;">
+                                </center>
+                                <div class="card-body" style="text-align:center;">
+                                    <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">
+                                        LANGUAGES</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7"  style = "margin-left:auto; margin-right: auto;">
+                        <div data-aos="zoom-in" data-aos-duration="1000">
+                            <img src="static/images/python.png" alt="python" class="skresponsive">
+                            <img src="static/images/javascript.png" alt="python" class="skresponsive">
+                            <img src="static/images/java.png" alt="python" class="skresponsive">
+                            <img src="static/images/c++.png" alt="python" class="skresponsive">
+                        </div>
+                    </div>
                 </div>
-                <h5 class = "project-desc">
-                    A forum based web tutoring application designed to help students get their questions about classes answered by other students or experts. 
-                    Built using Django, Heroku, TravisCI, Bootstrap, Javascript, Python, and PostgreSQL
-                </h5>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="row justify-content-center">
-                <h4 class="project-title">Coop</h4>
-                <div class = "row justify-content-center"style = "margin-top: 3vh; margin-bottom: 3vh;">
-                    <img src="static/images/coop.jpg" height=100%  width=50%>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <div class="card" style="width: 10rem; background-color:  #252424; margin-left:auto; margin-right: auto;">
+                                <center>
+                                    <img class="skresponsive" src="static/images/frameworks.png" alt="Card image cap"
+                                        style="height: 80%; width: 80%;">
+                                </center>
+                                <div class="card-body" style="text-align:center;">
+                                    <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">
+                                        FRAMEWORKS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7" style = "margin-left:auto; margin-right: auto;">
+                        <div data-aos="zoom-in" data-aos-duration="1000">
+                            <img src="static/images/django.png" alt="python" class="skresponsive">
+                            <img src="static/images/flask.png" alt="python" class="skresponsive">
+                            <img src="static/images/bootstrap.png" alt="python" class="skresponsive">
+                        </div>
+                    </div>
                 </div>
-                <h5 class = "project-desc">
-                    A simple note sharing web application that allows users to share and downloads notes with others. Created for Hoohacks 2020 at UVA. Built using Django, Python, and Bootstrap.
-                </h5>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <div class="card" style="width: 10rem; background-color:  #252424; margin-left:auto; margin-right: auto;">
+                                <center>
+                                    <img class="skresponsive" src="static/images/tools.png" alt="Card image cap"
+                                        style="height: 80%; width: 80%;">
+                                </center>
+                                <div class="card-body" style="text-align:center;">
+                                    <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">
+                                        TOOLS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7"  style = "margin-left:auto; margin-right: auto;">
+                        <div data-aos="zoom-in" data-aos-duration="1000">
+                            <img src="static/images/command.png" alt="python" class="skresponsive">
+                            <img src="static/images/github.png" alt="python" class="skresponsive">
+                            <img src="static/images/postgresql.png" alt="python" class="skresponsive">
+                            <img src="static/images/overleaf.png" alt="python" class="skresponsive">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-</div>
-<!--Skills-->
-<div class = "container-fluid" style = "background-color: #252424; padding-top: 10vh; padding-bottom: 20vh;" id = "skills">
-    <div data-aos="zoom-in" data-aos-duration="1000">
-        <h1 class="display-4" style="color: rgb(255, 255, 255); font-weight: bold; text-align: center; padding-bottom: 3vh;padding-top: 15vh;">TECHNICAL SKILLS</h1>
-    <div class="container">
-        <div class="row mt-5">
-          <div class="col">
-            <div data-aos="fade-right" data-aos-duration="1000">
-            <div class="card" style="width: 10rem; background-color:  #252424;">
-                <center>
-                <img class="skresponsive" src="static/images/languages.png" alt="Card image cap" style="height: 80%; width: 80%;">
-                </center>
-                <div class="card-body" style = "text-align:center;">
-                  <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">LANGUAGES</p>
-                </div>
-            </div>
-          </div>
-          </div>
-          <div class="col">
-            <div data-aos="zoom-in" data-aos-duration="1000">
-                <img src = "static/images/python.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/javascript.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/java.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/c++.png" alt = "python" class = "skresponsive">
-            </div>
+    <!--Contact Me-->
+    <div class="container-fluid" style="background-color: black; padding-top: 10vh; padding-bottom: 2vh;" id="contact">
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <h1 class="display-4"
+                style="color: rgb(255, 255, 255); font-weight: bold; text-align: center; padding-bottom: 3vh;padding-top: 15vh;">
+                Contact Me</h1>
+            <p style="color:white; font-size: 1em ; text-align: center; padding-bottom: 35vh;">
+                <!--I am actively searching for internship opportunities. -->
+                <br />Feel free to email me at <a href=mailto:jtk2rw@virginia.edu
+                    class="contact">jtk2rw@virginia.edu</a> or message me through <a
+                    href="https://www.linkedin.com/in/joon-kim-995a09183/" class="contact">linkedin</a>
+                if you have any questions or would like to reach out.
+            </p>
         </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div data-aos="fade-right" data-aos-duration="1000">
-            <div class="card" style="width: 10rem; background-color:  #252424;">
-                <center>
-                <img class="skresponsive" src="static/images/frameworks.png" alt="Card image cap" style="height: 80%; width: 80%;">
-                </center>
-                <div class="card-body" style = "text-align:center;">
-                  <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">FRAMEWORKS</p>
-                </div>
-            </div>
-          </div>
-          </div>
-          <div class="col">
-            <div data-aos="zoom-in" data-aos-duration="1000">
-                <img src = "static/images/django.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/flask.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/bootstrap.png" alt = "python" class = "skresponsive">
-            </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-            <div data-aos="fade-right" data-aos-duration="1000">
-            <div class="card" style="width: 10rem; background-color:  #252424;">
-                <center>
-                <img class="skresponsive" src="static/images/tools.png" alt="Card image cap" style="height: 80%; width: 80%;">
-                </center>
-                <div class="card-body" style = "text-align:center;">
-                  <p class="card-text" style="font-family:'Oxygen', sans-serif; color: whitesmoke;">TOOLS</p>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col">
-            <div data-aos="zoom-in" data-aos-duration="1000">
-                <img src = "static/images/command.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/github.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/postgresql.png" alt = "python" class = "skresponsive">
-                <img src = "static/images/overleaf.png" alt = "python" class = "skresponsive">
-            </div>
-      </div>
-      </div>
-</div>
-</div>
-</div>
-<!--Contact Me-->
-<div class = "container-fluid" style = "background-color: black; padding-top: 10vh; padding-bottom: 2vh;" id = "contact">
-<div data-aos="fade-up" data-aos-duration="2000">
-    <h1 class="display-4" style="color: rgb(255, 255, 255); font-weight: bold; text-align: center; padding-bottom: 3vh;padding-top: 15vh;">Contact Me</h1>
-     <p style = "color:white; font-size: 1em ; text-align: center; padding-bottom: 35vh;"><!--I am actively searching for internship opportunities. -->
-        <br/>Feel free to email me at <a href = mailto:jtk2rw@virginia.edu class = "contact">jtk2rw@virginia.edu</a> or message me through <a href = "https://www.linkedin.com/in/joon-kim-995a09183/" class = "contact">linkedin</a>
-         if you have any questions or would like to reach out.</p>
-        </div>
-    <p style = "text-align: center; color: white;">Copyright © Joon Kim 2020</p>
-</div>
+        <p style="text-align: center; color: white;">Copyright © Joon Kim 2020</p>
+    </div>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
